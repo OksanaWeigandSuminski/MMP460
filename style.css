@@ -3,6 +3,9 @@
     font-size: 1rem;
 }
 .jumbotron{
-    background-image: url("img/unnamed.jpg");
+    background-image: url("img/44.jpg");
     background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 6%;
+   
 }
