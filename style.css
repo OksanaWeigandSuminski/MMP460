@@ -44,3 +44,8 @@
     /* transform: translate3d(35px, 0, 0); */
     top: auto;
 }
+#callout h4{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 32px;
+  }
