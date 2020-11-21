@@ -14,14 +14,20 @@
 }
 
 .btn-text {
+    color: white;
     text-align: center;
     vertical-align: middle;
     position: relative;
-    padding: 20px 30px
+    padding: 5px;
+    transition: color 500ms ease-in;
+}
+.btn:hover .btn-text {
+    color: black;
 }
 
 .btn-box {
-    background-color: red;
+    /* justify-content: space-between; */
+    background-color: #f03939;
     transition: all 1s;
     position: absolute;
     bottom: 0;
@@ -32,8 +38,9 @@
 }
 
 .btn:hover .btn-box {
-    width: 81px;
-    height: 5px;
-    transform: translate3d(50px, 0, 0);
-    top: auto
+   /* align-items: center; */
+    width: 50%;
+    height: 3px;
+    /* transform: translate3d(35px, 0, 0); */
+    top: auto;
 }
