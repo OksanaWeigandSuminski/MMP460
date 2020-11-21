@@ -9,3 +9,31 @@
     padding-bottom: 6%;
    
 }
+.btn {
+    position: relative;
+}
+
+.btn-text {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding: 20px 30px
+}
+
+.btn-box {
+    background-color: red;
+    transition: all 1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn:hover .btn-box {
+    width: 81px;
+    height: 5px;
+    transform: translate3d(50px, 0, 0);
+    top: auto
+}
