@@ -42,7 +42,7 @@
       <h1 class="display-2">UN Ocean Conference</h1>
       <p class="lead">A Virtual Conference For Ocean Pollution</p>
       <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-        <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#register">Register
+        <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#register" style="cursor: pointer;">Register
           Now</button>
         <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
       </div>
@@ -57,28 +57,28 @@
         <div class="btn col-lg-3">
           <div class="btn-box"></div>
           <div class="btn-text">
-            <h4 data-toggle="modal" data-target="#donation">Make a donation</h4>
+            <h4 data-toggle="modal" data-target="#donation" style="cursor: pointer;">Make a donation</h4>
           </div>
         </div>
 
         <div class="btn col-lg-3">
           <div class="btn-box"></div>
           <div class="btn-text">
-            <h4 data-toggle="modal" data-target="#speaker">Become a speaker</h4>
+            <h4 data-toggle="modal" data-target="#speaker" style="cursor: pointer;">Become a speaker</h4>
           </div>
         </div>
 
         <div class="btn col-lg-3">
           <div class="btn-box"></div>
           <div class="btn-text">
-            <h4 data-toggle="modal" data-target="#lab">Are you a lab?</h4>
+            <h4 data-toggle="modal" data-target="#lab" style="cursor: pointer;">Are you a lab?</h4>
           </div>
         </div>
 
         <div class="btn col-lg-3">
           <div class="btn-box"></div>
           <div class="btn-text">
-            <h4 data-toggle="modal" data-target="#university">Are you a University?</h4>
+            <h4 data-toggle="modal" data-target="#university" style="cursor: pointer;">Are you a University?</h4>
           </div>
         </div>
 
@@ -186,7 +186,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h1 class="mb-1" style="color: #353a3f;">Day 1</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 1</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">10:00am -
                 11:00pm</span>
@@ -230,7 +230,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                <h1 class="mb-1" style="color: #353a3f;">Day 1</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 1</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">3:00am -
                 6:00pm</span>
@@ -252,7 +252,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                <h1 class="mb-1" style="color: #353a3f;">Day 2</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 2</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">10:00am -
                 1:00pm</span>
@@ -287,7 +287,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                <h1 class="mb-1" style="color: #353a3f;">Day 2</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 2</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">3:00pm -
                 6:00pm</span>
@@ -313,7 +313,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                <h1 class="mb-1" style="color: #353a3f;">Day 3</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 3</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">10:00am -
                 1:00pm</span>
@@ -351,7 +351,7 @@
             <div class="d-flex justify-content-between">
               <button class="btn btn-link" style="text-decoration: none;" type="button" data-toggle="collapse"
                 data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                <h1 class="mb-1" style="color: #353a3f;">Day 3</h1>
+                <h1 class="mb-1" style="color: #353a3f; cursor: pointer;">Day 3</h1>
               </button>
               <span class="badge badge-pill m-2 p-3" style="background-color: #353a3f; text-align: center;">3:00pm -
                 6:00pm</span>
@@ -684,8 +684,10 @@
                   </select>
                 </div>
               </div>
-              <hr class="mb-4">
-              <button type="submit" class="btn btn-dark btn-lg">Donate</button>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-dark">Donate</button>
+              </div>
             </form>
             <!-- /donation form -->
           </div>
