@@ -27,7 +27,8 @@
 
 .btn-box {
     /* justify-content: space-between; */
-    background-color: #f03939;
+    /* background-color: #f03939; */
+    background-color: #093e66;
     transition: all 1s;
     position: absolute;
     bottom: 0;
@@ -45,7 +46,7 @@
     top: auto;
 }
 #callout h4{
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    font-size: 32px;
+    font-family: 'Abril Fatface', cursive;
+    /* font-weight: bold; */
+    font-size: 25px;
   }
